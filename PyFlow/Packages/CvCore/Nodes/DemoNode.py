@@ -20,7 +20,7 @@ class DemoNode(NodeBase):
 
     @staticmethod
     def category():
-        return 'Generated from wizard'
+        return 'DemoNode'
 
     @staticmethod
     def keywords():

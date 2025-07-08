@@ -10,7 +10,7 @@ class DemoLib(FunctionLibraryBase):
         super(DemoLib, self).__init__(packageName)
 
     @staticmethod
-    @IMPLEMENT_NODE(returns=None, nodeType=NodeTypes.Callable, meta={NodeMeta.CATEGORY: 'DemoLib', NodeMeta.KEYWORDS: []})
+    @IMPLEMENT_NODE(returns=None, nodeType=NodeTypes.Callable, meta={NodeMeta.CATEGORY: 'DemoNode', NodeMeta.KEYWORDS: []})
     # Return a random integer N such that a <= N <= b
     def demoLibGreet(word=('StringPin', "Greet!")):
         """Docstrings are in **rst** format!"""

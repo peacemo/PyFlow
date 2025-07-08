@@ -12,3 +12,4 @@ docs/build_docs_env.bat
 .venv
 .idea
 __pycache__/
+PyFlow/Packages/PyFlowOpenCV/
